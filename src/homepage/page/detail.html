@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detail-Page</title>
+  </head>
+  <body>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  />
+  <style>
+    /* Ensure no padding or margin on body or html */
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+
+    /* Remove container-fluid padding */
+    .container-fluid {
+      padding-left: 0;
+      padding-right: 0;
+      width: 100%;
+    }
+
+    /* Ensure no gutters in Bootstrap rows */
+    .row {
+      margin: 0;
+      --bs-gutter-x: 0;
+      --bs-gutter-y: 0;
+    }
+
+    /* Optional: if you want to make sure the header spans full width */
+    header {
+      width: 100%;
+      padding: 0;
+    }
+
+    /* Debugging Outline for Elements */
+    /* Uncomment to debug */
+    /* * {
+      outline: 1px solid red;
+    } */
+
+    /* E-Bike Section */
+    .e-bike {
+      background-size: cover;
+      background-position: center;
+      margin: 0;
+    }
+
+    /* Card Section */
+    .card-section {
+      gap: 2rem;
+    }
+
+    /* Footer adjustments */
+    footer {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+<body class="bg-light">
+  <div class="container-fluid">
+    <!-- Header -->
+    <header
+      class="d-flex justify-content-between align-items-center p-2 bg-white"
+    >
+      <a href="./Index.html" class="logo ms-5">
+        <img src="./img/logo.jpg" width="70" alt="logo" />
+      </a>
+      <!-- Navbar -->
+      <nav>
+        <ul class="nav">
+          <li class="nav-item">
+            <a href="./Index.html" class="nav-link text-dark">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-dark">Genuine</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-dark">Genuine Pre-Sale</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Cart Button -->
+      <a href="#" class="btn btn-warning text-dark fw-bold mx-5">Cart</a>
+    </header>
+
+    <!-- Product Section -->
+    <div class="card mt-4" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
